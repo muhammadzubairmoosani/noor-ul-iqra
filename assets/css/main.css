@@ -643,13 +643,14 @@ h6 {
   color: var(--accent-color);
 }
 
-.footer .footer-contact {
+/* .footer .footer-contact {
   display: flex;
   gap: 1rem;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
+
 .footer .footer-contact p {
   margin-bottom: 5px;
 }
