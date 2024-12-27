@@ -250,8 +250,9 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 66px;
   margin-right: 8px;
+  border-radius: 50px;
 }
 
 .header .logo h1 {
@@ -1199,11 +1200,11 @@ section,
 
 .courses .course-content h3 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .courses .course-content h3 a {
-  color: var(--heading-color);
+  color: var(--accent-color);
   transition: 0.3s;
 }
 
@@ -1228,7 +1229,7 @@ section,
 }
 
 .courses .course-content .description {
-  font-size: 14px;
+  font-size: 18px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
