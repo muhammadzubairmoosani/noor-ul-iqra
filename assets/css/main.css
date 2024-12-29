@@ -26,6 +26,7 @@
   --heading-color: #37423b; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #daa520; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   /* --accent-color: #5fcf80; Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --whatsApp-color: #25d366; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -270,7 +271,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: var(--whatsApp-color);
   font-size: 18px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -282,7 +283,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, var(--whatsApp-color), transparent 15%);
 }
 
 @media (max-width: 1200px) {
