@@ -286,14 +286,26 @@ h6 {
   background: color-mix(in srgb, var(--whatsApp-color), transparent 15%);
 }
 
+@media (max-width: 768px) {
+  .header .logo img {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
   }
 
+  .header .logo h1 {
+    font-size: 18px;
+  }
+
   .header .btn-getstarted {
     order: 2;
-    margin: 0 15px 0 0;
+    /* margin: 0 15px 0 0; */
+    margin: 0;
+    font-size: 15px;
     padding: 6px 15px;
   }
 
@@ -1869,8 +1881,10 @@ section,
   padding-bottom: 40px;
 }
 
-.contact .info-item + .info-item {
-  margin-top: 40px;
+@media (max-width: 992px) {
+  .contact .info-item + .info-item {
+    margin-top: 40px;
+  }
 }
 
 .contact .info-item i {
