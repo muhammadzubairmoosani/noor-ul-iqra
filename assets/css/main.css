@@ -1240,7 +1240,7 @@ section,
   font-size: 26px;
 }
 
-.courses .course-content h3 a {
+.courses .course-content h3 p {
   color: var(--accent-color);
   transition: 0.3s;
 }
