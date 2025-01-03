@@ -933,6 +933,12 @@ section,
   margin: 4px 10px;
 }
 
+@media (max-width: 767px) {
+  .section-title h2::after {
+    visibility: hidden;
+  }
+}
+
 .section-title p {
   color: var(--heading-color);
   margin: 0;
