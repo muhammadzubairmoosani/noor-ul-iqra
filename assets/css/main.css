@@ -244,7 +244,7 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 5px 0;
+  padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -287,6 +287,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  .header {
+    padding: 5px 0;
+  }
+
   .header .logo h1 {
     display: none;
   }
@@ -303,8 +307,8 @@ h6 {
 
   .header .btn-getstarted {
     order: 2;
-    /* margin: 0 15px 0 0; */
-    margin: 0;
+    margin: 0 15px 0 0;
+    /* margin: 0; */
     font-size: 15px;
     padding: 6px 15px;
   }
